@@ -1,7 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import visitorSlicer from './slicer/visitorSlicer';
 
 export const store = configureStore({
   reducer: {
+    visitor: visitorSlicer
   },
 });
 
