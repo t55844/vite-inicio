@@ -3,7 +3,7 @@ import Form from "./components/Form/Form";
 
 function App(): JSX.Element {
   return (
-    <div className="App">
+    <div className="App bg-slate-100">
       <Form />
     </div>
   );

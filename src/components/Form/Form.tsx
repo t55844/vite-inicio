@@ -60,7 +60,7 @@ export default function Form() {
 
                     <DIvFlex direction="col" width="1/4">
                         {errors.secondName ? <WarnigTextBox title="Second Name" description={errors.secondName.message as string} /> : null}
-                        <TextInput label="Secnd Name" placeholder="Tea" registerName="secondName" type="text" key={Math.random()} />
+                        <TextInput label="Second Name" placeholder="Tea" registerName="secondName" type="text" key={Math.random()} />
                     </DIvFlex>
 
                     <DIvFlex direction="col" width="1/4">
