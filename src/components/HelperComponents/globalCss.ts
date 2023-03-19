@@ -1,6 +1,8 @@
 export const color = {
-    background: 'bg-blue-700',
-    backgroundLight: 'bg-blue-500',
-    hover: 'hover:bg-blue-500'
+    background: 'bg-teal-500',
+    backgroundLight: 'bg-teal-400',
+    hover: 'hover:bg-blue-600',
+    text: 'text-teal-200',
+    textHover: 'hover:text-white',
 
 }

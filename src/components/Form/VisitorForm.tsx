@@ -25,7 +25,7 @@ export interface IFormValuesVisitorInfo {
     age: string
 }
 
-export default function Form() {
+export default function VisitorForm() {
     const methods = useForm<IFormValuesVisitorInfo>({
         resolver: yupResolver(visitorSchema, {}),
     });

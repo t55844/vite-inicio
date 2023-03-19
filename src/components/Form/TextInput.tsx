@@ -14,7 +14,7 @@ export default function TextInput(props: ITextInputProps) {
 
     return (
         <div className="mb-4 w-full">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor={label}>
+            <label className="block text-sm font-bold mb-2" htmlFor={label}>
                 {label}
             </label>
             <input
