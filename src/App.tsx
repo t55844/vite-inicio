@@ -8,14 +8,17 @@ import Home from "./components/Home/Home";
 
 function App(): JSX.Element {
   return (
-    <div className={`App   `}>
+    <div className={`App  `}>
       <Router>
+
         <Navbar />
-        <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/visitorForm" Component={VisitorForm} />
-          <Route path="/seeAnimals" Component={SeeAnimals} />
-        </Routes>
+        <div className="md:m-10 flex flex-col">
+          <Routes>
+            <Route path="/" Component={Home} />
+            <Route path="/visitorForm" Component={VisitorForm} />
+            <Route path="/seeAnimals" Component={SeeAnimals} />
+          </Routes>
+        </div>
       </Router>
     </div >
   );

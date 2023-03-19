@@ -48,7 +48,7 @@ export default function VisitorForm() {
     }
 
     return (
-        <FormProvider {...methods} > // pass all methods into the context
+        <FormProvider {...methods} >
             <form className="w-9/12 ml-auto  mr-auto mt-8" onSubmit={handleSubmit(onSubmit)}>
                 <TitleOfSection text="Fill out Visitor form" />
                 <DIvFlex width="11/12" direction="row" >
