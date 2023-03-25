@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../SeeAnimals/Card';
+import Card from '../SeePlant/Card';
 
 export default function Home(props) {
 

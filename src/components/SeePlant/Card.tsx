@@ -12,8 +12,8 @@ export default function Card(props: ICardProps) {
 
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg md:m-5 m-2">
-            <img className="w-full" src={imgSrc} alt={title} />
-            <div className="px-6 py-4 bg-zinc-700">
+            <img className="w-full h-2/3" src={imgSrc} alt={title} />
+            <div className="h-1/3 px-6 py-4 bg-zinc-700">
                 <div className="font-bold text-xl mb-2">{title}</div>
                 <p className=" text-base">
                     {descriptions}

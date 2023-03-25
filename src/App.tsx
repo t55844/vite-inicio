@@ -3,8 +3,8 @@ import Navbar from "./components/FixedComponents/Navbar/Navbar";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import VisitorForm from "./components/Form/VisitorForm";
-import SeeAnimals from "./components/SeeAnimals/SeeAnimals";
 import Home from "./components/Home/Home";
+import SeePlants from "./components/SeePlant/SeePlant";
 
 function App(): JSX.Element {
   return (
@@ -16,7 +16,7 @@ function App(): JSX.Element {
           <Routes>
             <Route path="/" Component={Home} />
             <Route path="/visitorForm" Component={VisitorForm} />
-            <Route path="/seeAnimals" Component={SeeAnimals} />
+            <Route path="/seeAnimals" Component={SeePlants} />
           </Routes>
         </div>
       </Router>
