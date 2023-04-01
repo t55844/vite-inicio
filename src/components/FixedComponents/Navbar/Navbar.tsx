@@ -12,7 +12,7 @@ export default function Navbar() {
             </div>
             <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
                 <Link url="/" name="Home" />
-                <Link url="/seeAnimals" name="See Animais" />
+                <Link url="/seePlant" name="See Plants" />
                 <Link url="/visitorForm" name="Visitor Form" />
 
             </div >

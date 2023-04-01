@@ -11,6 +11,7 @@ export default function Search() {
     return (
         <div>
             <input
+
                 type="search"
                 id="default-search"
                 value={inputText} onChange={e => setInputText(e.target.value)}
